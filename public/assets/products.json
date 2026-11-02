@@ -1,0 +1,52 @@
+{
+  "forma": [
+    {
+      "id": "form-chair",
+      "name": "Кресло SLOPE",
+      "category": "Мягкая мебель",
+      "price": 48900,
+      "note": "Тактильная букле · песочный",
+      "position": "0% 0%"
+    },
+    {
+      "id": "form-table",
+      "name": "Столик SOLID",
+      "category": "Столы",
+      "price": 24800,
+      "note": "Массив дуба · натуральный",
+      "position": "50% 0%"
+    },
+    {
+      "id": "form-pouf",
+      "name": "Пуф CLOUD",
+      "category": "Мягкая мебель",
+      "price": 16800,
+      "note": "Лён · сливочный",
+      "position": "100% 0%"
+    },
+    {
+      "id": "form-woodchair",
+      "name": "Стул SORA",
+      "category": "Стулья",
+      "price": 21900,
+      "note": "Дуб · ручная отделка",
+      "position": "0% 100%"
+    },
+    {
+      "id": "form-lamp",
+      "name": "Торшер AMI",
+      "category": "Свет",
+      "price": 19200,
+      "note": "Лён и дерево · тёплый свет",
+      "position": "50% 100%"
+    },
+    {
+      "id": "form-sofa",
+      "name": "Диван MONO",
+      "category": "Мягкая мебель",
+      "price": 128000,
+      "note": "Модульный · светлый лён",
+      "position": "100% 100%"
+    }
+  ]
+}

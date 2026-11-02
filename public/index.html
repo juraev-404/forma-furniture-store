@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Демонстрационный интернет-магазин мебели и предметов для дома.">
+<meta name="robots" content="noindex,nofollow">
+<title>FORMA — магазин мебели — демонстрационный проект</title>
+<link rel="stylesheet" href="assets/common.css?v=2">
+<script defer src="assets/common.js"></script>
+</head>
+<body class="forma" data-site="forma">
+<div class="demo-strip">Демонстрационный проект для портфолио · <a href="https://portfolio7.ru/portfolio-demos/">все работы</a>
+</div>
+<header class="site-header shell"><a class="logo" href="./">FORMA</a><nav class="nav" id="main-nav" aria-label="Основная навигация"><a href="#catalog">Каталог</a><a href="#story">О нас</a><a href="#delivery">Доставка</a><a href="https://portfolio7.ru/portfolio-demos/">Все проекты ↗</a></nav><div class="header-actions">
+<button class="button light" type="button" data-open="cart-dialog">Корзина <span data-cart-count>0</span></button><button class="menu-toggle" type="button" data-menu-toggle aria-controls="main-nav" aria-expanded="false">Меню ☰</button>
+</div></header><main><section class="hero shell"><div class="hero-box image forma-img"><div>
+<p class="eyebrow">Коллекция для жизни / 01</p>
+<h1>Красота простых вещей.</h1>
+<p class="lead">Мебель и предметы, которые создают ощущение дома — каждый день.</p>
+<div class="hero-actions"><a href="#catalog" class="button">Смотреть коллекцию <span>↗</span></a></div>
+</div></div>
+<div class="benefits">
+<div>↗   Натуральные материалы</div>
+<div>↗   Продуманный дизайн</div>
+<div>↗   Вещи надолго</div>
+</div></section><section class="section shell" id="catalog" data-shop><div class="section-head">
+<div>
+<p class="eyebrow section-kicker">Подборка / 01</p>
+<h2>Хорошие вещи<br>на каждый день.</h2>
+</div>
+<p>Выбирайте, изучайте детали и собирайте свою корзину.</p>
+</div>
+<div class="shop-tools">
+<div class="pill-row" aria-label="Категории каталога">
+<button type="button" class="pill active" data-filter="Все">Все</button><button type="button" class="pill " data-filter="Мягкая мебель">Мягкая мебель</button><button type="button" class="pill " data-filter="Столы">Столы</button><button type="button" class="pill " data-filter="Стулья">Стулья</button><button type="button" class="pill " data-filter="Свет">Свет</button>
+</div>
+<input class="search" type="search" data-search placeholder="Поиск по каталогу" aria-label="Поиск по каталогу">
+</div>
+<div class="product-grid" data-product-grid aria-live="polite"><p class="empty">Загружаем каталог…</p></div></section><section id="story" class="section shell"><div class="story-box">
+<p class="eyebrow">Наша философия / 02</p>
+<h2>Меньше лишнего.<br>Больше жизни.</h2>
+<p class="lead">Честные материалы, спокойные формы и внимание к тому, как предмет ощущается в повседневности. Выбирайте то, с чем хочется остаться надолго.</p>
+</div></section><section id="delivery" class="section shell section-rule"><div class="split">
+<div>
+<p class="eyebrow section-kicker">Информация / 03</p>
+<h2>Детали имеют значение.</h2>
+</div>
+<div class="faq-list">
+<details><summary>Как устроена доставка?</summary><p>В демонстрационной версии можно выбрать доставку или самовывоз. Реальная доставка не выполняется.</p></details><details><summary>Можно ли изменить заказ?</summary><p>Корзину можно изменить до отправки: добавлять и удалять товары, менять количество.</p></details><details><summary>Как оплатить заказ?</summary><p>Это учебный магазин: настоящая оплата не подключена и платёжные данные не запрашиваются.</p></details>
+</div>
+</div></section></main><footer class="footer"><div class="shell">
+<div class="footer-top">
+<div>
+<a href="./" class="logo">FORMA</a><p class="lead" style="font-size:12px;margin-top:12px">Предметы, с которыми хорошо дома.</p>
+</div>
+<div class="footer-nav">
+<a href="#catalog">Каталог</a><a href="#story">О нас</a><a href="#delivery">Доставка</a><a href="https://portfolio7.ru/portfolio-demos/">Все проекты ↗</a>
+</div>
+</div>
+<small>Демонстрационный проект для портфолио. Название и содержание вымышлены.</small>
+</div></footer><dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title"><div class="dialog-inner">
+<div class="dialog-head">
+<div>
+<p class="eyebrow">Ваш выбор</p>
+<h2 id="cart-title">Корзина</h2>
+</div>
+<button class="icon-button" type="button" data-close aria-label="Закрыть">×</button>
+</div>
+<div data-cart-list></div>
+<div class="cart-order">
+<div class="cart-total">
+<span>Итого</span><span data-total>0 ₽</span>
+</div>
+<form class="form" data-order-form>
+<label>Получение<select name="delivery"><option>Самовывоз</option>
+<option>Доставка</option></select></label><p class="form-note">Демо-магазин: оплата и доставка не выполняются. Не вводите личные или платёжные данные.</p>
+<button class="button" type="submit" data-checkout>Оформить демо-заказ <span>↗</span></button><p class="status" data-status role="status" aria-live="polite"></p>
+</form>
+</div>
+</div></dialog><dialog id="product-dialog" aria-labelledby="product-title"><div class="dialog-inner">
+<div class="dialog-head">
+<span id="product-title" class="eyebrow">О товаре</span><button class="icon-button" type="button" data-close aria-label="Закрыть">×</button>
+</div>
+<div class="detail-layout" data-detail-content></div>
+</div></dialog>
+</body>
+</html>
